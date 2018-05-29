@@ -1,6 +1,9 @@
 public class Task3 {
+    
+    /**
+      Это длинна вектора, а нужно найти единичный вектор.
+    **/
     public static void main(String[] args)
-
     {
         vector(1, 0, 0);
     }
