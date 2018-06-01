@@ -1,4 +1,3 @@
-import java.util.Scanner;
 public class Task2 {
 
     /**
@@ -7,21 +6,14 @@ public class Task2 {
     Делим на 10000. Получаем первое число. Вычитаем из исходного числа результат полученной цифры умноженной на 10000.
     и так далее...
     **/
-    public static void main(String[] args) {
+        public static void main (String [] args){
+            int y = 67895;
+            int x= 10;
 
-        Scanner scan = new Scanner(System.in);
-
-        System.out.println("Введите пятизначное число: ");
-
-        int num = scan.nextInt();
-        String text = Integer.toString(num);
-        int i = 0;
-        int length = Integer.toString(num).length();
-
-        while(i < length){
-            char result = text.charAt(i++);
-            System.out.println(result);
+            System.out.println (y/10000 % x);
+            System.out.println (y/1000 % x);
+            System.out.println (y/100 % x);
+            System.out.println (y/10 % x);
+            System.out.println (y % x);
         }
-        scan.close();
     }
-}
