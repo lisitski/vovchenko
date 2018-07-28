@@ -1,3 +1,5 @@
+package home.vovchenko.HomeWork1;
+
 public class Task2 {
 
     /**

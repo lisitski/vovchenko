@@ -1,4 +1,4 @@
-package home.vovchenko;
+package home.vovchenko.HomeWork1;
 
 public class Task {
     public static void main(String[] args) {

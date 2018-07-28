@@ -1,4 +1,4 @@
-package HomeWork2;
+package home.vovchenko.HomeWork2;
 
 import java.util.Scanner;
 
