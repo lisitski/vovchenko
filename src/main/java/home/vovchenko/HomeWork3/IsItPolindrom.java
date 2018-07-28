@@ -20,7 +20,7 @@ public class IsItPolindrom
         System.out.println("Reversed sequance: " + newSequence.reverse().toString());
 
         boolean comparison = sequence.equals(newSequence.toString());
-        System.out.println(comparison);
+        System.out.println("Is string polindrom: " + comparison);
     }
 
 }
