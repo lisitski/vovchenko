@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Sweets {
     public static void main(String[] args) {
 
+        System.out.println("Pullrequest");
         Scanner price = new Scanner(System.in);
         double sweets = price.nextDouble();
         double cookies = price.nextDouble();
